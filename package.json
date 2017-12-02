@@ -1,0 +1,21 @@
+{
+  "name": "supplicant-psk",
+  "version": "0.0.1",
+  "description": "CLI for generating hash for wpa_supplicant.conf",
+  "main": "supplicant-psk.js",
+  "bin": {
+    "supplicant-psk": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caike/supplicant-psk.git"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Carlos Souza <carloshrsouza@gmail.com> (http://csouza.me/)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
